@@ -21,7 +21,7 @@ public class MainActivity extends Activity {
     public void onBtn1(View v) {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("안내");
-        builder.setMessage("종료");
+        builder.setMessage("종료할꺼?");
         builder.setIcon(android.R.drawable.ic_dialog_alert);
         builder.setPositiveButton("예", new DialogInterface.OnClickListener() {
             @Override
